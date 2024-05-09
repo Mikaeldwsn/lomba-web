@@ -11,7 +11,7 @@
     outline: none;
     border : none;
     text-decoration:  none;
-
+    color: #ffffff;
 }
 
 body{
@@ -27,7 +27,7 @@ body{
     align-items: center;
     padding: 1.4rem 7%;
     background-color: rgba(1, 1, 1,0.8);
-    border-bottom: 1px solid #513c28;
+    border-bottom: 1px solid #ffffff;
     position:fixed;
     top: 0;
     left: 0;
@@ -35,7 +35,8 @@ body{
     z-index: 9999;
 }
 
-.navbar .navbar-logo{
-    font-size: 2 rem;
+.navbar .navbar-logo img{
+    width: 50%;
+    height: 50%;
     
 }
