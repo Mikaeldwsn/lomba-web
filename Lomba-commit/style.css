@@ -1,31 +1,41 @@
-a {
-    color: white;
-    text-decoration: none;
+:root{
+    --primary: #b6895b;
+    --bg: #010101;
 }
 
-.container {
-    background-color: black;
+*{
+    font-family: 'poppins' , sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing :border-box;
+    outline: none;
+    border : none;
+    text-decoration:  none;
+
 }
 
-.nav-container {
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: var(--bg);
+    color: #fff;
+}
+
+/* Navbar */
+.navbar{
     display: flex;
     justify-content: space-between;
-    justify-items: center;
-    color: white;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(1, 1, 1,0.8);
+    border-bottom: 1px solid #513c28;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
-.logo {
-    padding: 17px;
-}
-
-.nav-content ul{
-    display: flex;
-}
-
-.nav-content li {
-    list-style: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: white;
+.navbar .navbar-logo{
+    font-size: 2 rem;
     
 }
